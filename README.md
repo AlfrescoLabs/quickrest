@@ -23,6 +23,7 @@ It uses:
 * Updated the pom.xml, Updated the compiler to jdk 1.7, added an work around for a spring-context issue, see commit
 * Updated the pom.xml, Made sure alfresco.client.war.version matches the Alfresco version, see commit
 * Updated the logging and basic spring context, see commit 
+* Updated the pom.xml, Added alfresco-remote-api as a "provided" dependency, see commit
 * Ran `mvn integration-test -Pamp-to-war` [See Maven Amp Commands](https://artifacts.alfresco.com/nexus/content/repositories/alfresco-docs/alfresco-lifecycle-aggregator/latest/archetypes/alfresco-amp-archetype/usage.html#Commands)
 * In a browser : [http:localhost:8080/quickrest/](http:localhost:8080/quickrest/)  **Alfresco is up and running :)**
 
