@@ -17,7 +17,14 @@ It uses:
 * Git init and added exclusions
 * Imported as a Maven Project into Eclipse
 * Added README.md
-* Git commit
+
+* Deleted unused files, see commit
+* Updated the pom.xml, changed the Alfresco version, eclipse quickfix, see commit
+* Updated the pom.xml, Updated the compiler to jdk 1.7, added an work around for a spring-context issue, see commit
+* Updated the pom.xml, Made sure alfresco.client.war.version matches the Alfresco version, see commit
+* Updated the logging and basic spring context, see commit 
+* Ran `mvn integration-test -Pamp-to-war` [See Maven Amp Commands](https://artifacts.alfresco.com/nexus/content/repositories/alfresco-docs/alfresco-lifecycle-aggregator/latest/archetypes/alfresco-amp-archetype/usage.html#Commands)
+* In a browser : [http:localhost:8080/quickrest/](http:localhost:8080/quickrest/)  **Alfresco is up and running :)**
 
 ### License
 Copyright (C) 2013 Alfresco Software Limited
