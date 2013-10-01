@@ -21,6 +21,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 @EntityResource(name="info", title = "Info on all the apis")
 public class InfoEntityResource implements EntityResourceAction.Read<ResourceWithMetadata>
 {   
+    private static final Api myApi = Api.valueOf("mycompany", "private", "1");
+    
     @Autowired
     private ResourceLookupDictionary lookupDictionary;
     
@@ -29,7 +31,7 @@ public class InfoEntityResource implements EntityResourceAction.Read<ResourceWit
     public CollectionWithPagingInfo<ResourceWithMetadata> readAll(Parameters params)
     {
         ResourceDictionary resourceDic = lookupDictionary.getDictionary();
-        final Map<String, ResourceWithMetadata> apiResources = resourceDic.getAllResources().get(Api.ALFRESCO_PUBLIC);
+        final Map<String, ResourceWithMetadata> apiResources = resourceDic.getAllResources().get(myApi);
         return CollectionWithPagingInfo.asPaged(params.getPaging(), apiResources.values());
     }
 
