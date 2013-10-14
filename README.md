@@ -17,13 +17,12 @@ It uses:
 * Git init and added exclusions
 * Imported as a Maven Project into Eclipse
 * Added README.md
-
-* Deleted unused files, see commit
-* Updated the pom.xml, changed the Alfresco version, eclipse quickfix, see commit
-* Updated the pom.xml, Updated the compiler to jdk 1.7, added an work around for a spring-context issue, see commit
-* Updated the pom.xml, Made sure alfresco.client.war.version matches the Alfresco version, see commit
-* Updated the logging and basic spring context, see commit 
-* Updated the pom.xml, Added alfresco-remote-api as a "provided" dependency, see commit
+* Deleted unused files, see [commit](https://github.com/AlfrescoLabs/quickrest/commit/1304c456f7f239c552bc2428058d264e823fd931)
+* Updated the pom.xml, changed the Alfresco version, eclipse quickfix, see [commit](https://github.com/AlfrescoLabs/quickrest/commit/4b9b49a761f6ee3850b77b128532422b8e2192f2)
+* Updated the pom.xml, Updated the compiler to jdk 1.7, added an work around for a spring-context issue, see [commit](https://github.com/AlfrescoLabs/quickrest/commit/54e9fea3bbebc6cb2a5b9655ef7da79f474506ce)
+* Updated the pom.xml, Made sure alfresco.client.war.version matches the Alfresco version, see [commit](https://github.com/AlfrescoLabs/quickrest/commit/32b2b24032c41e14800093a9aa356cea0ee9fd4f)
+* Updated the logging and basic spring context, see [commit](https://github.com/AlfrescoLabs/quickrest/commit/37394707414b94b3b8fa060895edcb1fcfe341a7) 
+* Updated the pom.xml, Added alfresco-remote-api as a "provided" dependency, see [commit](https://github.com/AlfrescoLabs/quickrest/commit/b242b8110ccc17bd5a5b60dccc60edb217a16fbe) 
 * Ran `mvn integration-test -Pamp-to-war` [See Maven Amp Commands](https://artifacts.alfresco.com/nexus/content/repositories/alfresco-docs/alfresco-lifecycle-aggregator/latest/archetypes/alfresco-amp-archetype/usage.html#Commands)
 * In a browser : [http:localhost:8080/quickrest/](http:localhost:8080/quickrest/)  **Alfresco is up and running :)**
 
