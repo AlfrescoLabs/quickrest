@@ -26,6 +26,12 @@ It uses:
 * Ran `mvn integration-test -Pamp-to-war` [See Maven Amp Commands](https://artifacts.alfresco.com/nexus/content/repositories/alfresco-docs/alfresco-lifecycle-aggregator/latest/archetypes/alfresco-amp-archetype/usage.html#Commands)
 * In a browser : [http:localhost:8080/quickrest/](http:localhost:8080/quickrest/)  **Alfresco is up and running :)**
 
+### Groovy
+Alfresco 4.2.e comes with support for Groovy 2.1.7 and invoke dynamic.
+
+Some examples of statically compiled Groovy Rest Endpoints are:
+[InfoEntityResource.groovy](https://github.com/AlfrescoLabs/quickrest/blob/groovy/src/main/groovy/org/alfresco/labs/quickrest/groovy/InfoEntityResource.groovy) and [VersionsResource.groovy](https://github.com/AlfrescoLabs/quickrest/blob/groovy/src/main/groovy/org/alfresco/labs/quickrest/groovy/VersionsResource.groovy)
+
 ### License
 Copyright (C) 2013 Alfresco Software Limited
 
